@@ -138,9 +138,10 @@ section img{
 
 .contato form input,textarea, button{
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     padding: 8px;
     width: 60%;
+    font-weight: 400;
 }
 
 .contato form textarea{
@@ -194,11 +195,6 @@ footer{
 
 footer p{
     color: #ecf0f1;
-}
-
-.error{
-    color: #e74c3c;
-    font-size: 0.8em;
 }
 
 @media screen and (max-width: 640px){

@@ -138,7 +138,7 @@ section img{
 
 .contato form input,textarea, button{
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     padding: 8px;
     width: 60%;
 }

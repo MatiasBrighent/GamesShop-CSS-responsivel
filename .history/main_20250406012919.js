@@ -14,14 +14,14 @@ $(document).ready(function(){
                 required: true,
                 email: true
             },
-            menssagem:{
+            mensagem:{
                 required: true
             }
         },
         messages:{
             nome: `<span > Por favor, insira seu nome </span> `,
             email: `<span > E-mail invalido </span> `,
-            menssagem: `<span > Por favor, insira sua mensagem </span> `,
+            mensagem: `<span > Por favor, insira sua mensagem </span> `,
         },
     })
 })

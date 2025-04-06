@@ -14,14 +14,20 @@ $(document).ready(function(){
                 required: true,
                 email: true
             },
-            menssagem:{
+            telefone:{
+                required: true
+            },
+            veiculoInteresse:{
+                required: false
+            },
+            mensagem:{
                 required: true
             }
         },
         messages:{
             nome: `<span > Por favor, insira seu nome </span> `,
+            telefone: `<span > Por favor, insira seu número de telefone</span>`,
             email: `<span > E-mail invalido </span> `,
-            menssagem: `<span > Por favor, insira sua mensagem </span> `,
         },
     })
 })
